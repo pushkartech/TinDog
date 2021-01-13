@@ -54,6 +54,9 @@ body {
     text-align: center;
 }
 
+.col-box {
+    padding: 5%;
+}
 .feature-icons {
     color: #ef8172;
     margin-bottom: 1rem;
@@ -71,5 +74,4 @@ body {
 
 .p-feat {
     color: #8f8f8f;
-    padding: 0 35px;
 }
