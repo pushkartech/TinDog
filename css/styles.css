@@ -46,3 +46,30 @@ body {
     width: 60%;
     transform: rotate(25deg);
 }
+
+/* Features styling */
+
+#features {
+    margin: 7% 15%;
+    text-align: center;
+}
+
+.feature-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+.fthead {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.p-feat {
+    color: #8f8f8f;
+    padding: 0 35px;
+}
