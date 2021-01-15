@@ -2,12 +2,6 @@ body {
     font-family: "Montserrat";
 }
 
-h2 {
-    font-family: "Montserrat";
-    font-weight: bolder;
-    font-size: 3rem;
-    line-height: 1.5;
-}
 #title {
     background-color: #ff4c68;
     color: #ffffff;
@@ -85,13 +79,23 @@ h2 {
 /* testinomials section */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
 
-.testinomial-img {
+#testimonial-carousel {
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
     width: 15%;
     border-radius: 100%;
     margin: 20px;
