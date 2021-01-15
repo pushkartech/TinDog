@@ -27,7 +27,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .header {
@@ -45,13 +45,18 @@ body {
 .iphone {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
 }
 
 /* Features styling */
 
 #features {
-    margin: 7% 15%;
+    background-color: #fff;
+    padding: 7% 15%;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .col-box {
