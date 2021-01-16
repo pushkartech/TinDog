@@ -127,3 +127,42 @@ body {
 .pricing-column {
     padding: 3% 2%;
 }
+
+@media (max-width: 1060px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+/* cta */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 20%;
+    color: #fff;
+}
+
+.cta-h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#footer {
+    font-family: "Montserrat";
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 0;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
