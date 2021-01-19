@@ -1,168 +1,163 @@
 body {
-    font-family: "Montserrat";
+  font-family: "Montserrat";
+  text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.header {
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title section */
+
 #title {
-    background-color: #ff4c68;
-    color: #ffffff;
+  background-color: #ff4c68;
+  color: #ffffff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-family: "Montserrat-Light";
-    font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
-}
-
-.header {
-    font-family: "Montserrat";
-    font-weight: 900;
-    color: #ffffff;
-    font-size: 3.5rem;
-    line-height: 1.5;
+  padding: 7% 15%;
 }
 
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 .iphone {
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 25%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
 
 /* Features styling */
 
 #features {
-    background-color: #fff;
-    padding: 7% 15%;
-    text-align: center;
-    position: relative;
-    z-index: 1;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .col-box {
-    padding: 5%;
+  padding: 5%;
 }
 .feature-icons {
-    color: #ef8172;
-    margin-bottom: 1rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
 .feature-icons:hover {
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
 .fthead {
-    font-family: "Montserrat";
-    font-weight: bolder;
-    font-size: 1.5rem;
-}
-
-.p-feat {
-    color: #8f8f8f;
+  font-size: 1.5rem;
 }
 
 /* testinomials section */
 
 #testimonials {
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
-}
-
-#testimonial-carousel {
-    padding: 7% 15%;
+  background-color: #ef8172;
+  color: #fff;
 }
 
 .testimonial-text {
-    font-family: "Montserrat";
-    font-weight: bolder;
-    font-size: 3rem;
-    line-height: 1.5;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-img {
-    width: 15%;
-    border-radius: 100%;
-    margin: 20px;
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 #press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 13%;
-    margin: 10px 20px 10px;
+  width: 13%;
+  margin: 10px 20px 10px;
 }
 
 /* Pricing section */
 
 #pricing {
-    padding: 100px;
-    text-align: center;
+  padding: 100px;
 }
 
 .pricing-column {
-    padding: 3% 2%;
-}
-
-@media (max-width: 1060px) {
-    #title {
-        text-align: center;
-    }
-
-    .iphone {
-        position: static;
-        transform: rotate(0);
-        width: 60%;
-    }
+  padding: 3% 2%;
 }
 
 /* cta */
 
 #cta {
-    text-align: center;
-    background-color: #ff4c68;
-    padding: 7% 20%;
-    color: #fff;
-}
-
-.cta-h3 {
-    font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-#footer {
-    font-family: "Montserrat";
-    background-color: #fff;
-    text-align: center;
-    padding: 7% 0;
+  background-color: #ff4c68;
+  color: #fff;
 }
 
 .footer-icon {
-    margin: 20px 10px;
+  margin: 20px 10px;
+}
+
+@media (max-width: 1060px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
 }
