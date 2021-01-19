@@ -31,17 +31,22 @@ p {
   line-height: 1.5;
 }
 
-/* Title section */
+/* containers  */
+.container-fluid {
+  padding: 7% 15%;
+}
 
-#title {
+/* Section clrd/white  */
+
+.colored-section {
   background-color: #ff4c68;
   color: #ffffff;
-  text-align: left;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
+.white-section {
+  background-color: #fff;
 }
+/* Navigation bar  */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -62,10 +67,6 @@ p {
   font-size: 1.2rem;
 }
 
-.container-fluid {
-  padding: 7% 15%;
-}
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -77,10 +78,16 @@ p {
   right: 25%;
 }
 
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* Features styling */
 
 #features {
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -89,7 +96,6 @@ p {
   padding: 5%;
 }
 .feature-icons {
-  color: #ef8172;
   margin-bottom: 1rem;
 }
 
@@ -105,7 +111,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -140,11 +145,6 @@ p {
 }
 
 /* cta */
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 .footer-icon {
   margin: 20px 10px;
